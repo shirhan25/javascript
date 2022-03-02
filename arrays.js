@@ -94,11 +94,13 @@ stations.splice(3,0,"Darlington");
   * Is Durham one of the stops?
   */
  
-//find an item in the array f
+//find an item in the array 
+// includes() method determines whether an array includes a certain value among
+//returns true or false
 
-stoppingAtDurham = stations.find(element => stations === "Durham");
+stoppingAtDurham = stations.includes("Durham");
  
-//  console.log(stoppingAtDurham);
+ console.log(stoppingAtDurham);
  
  
  /**
@@ -106,13 +108,12 @@ stoppingAtDurham = stations.find(element => stations === "Durham");
   * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
   */
 
-  array.forEach(element => {console.log(element);
-    
-});
 
- if(element=== "Durham" ){
+
+
+ if(stoppingAtDurham){
      console.log("Yay Durham!");
- } else(!element=== "Durham") {
+ } else {
      console.log("Aw...");
  }
 

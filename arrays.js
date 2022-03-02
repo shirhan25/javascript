@@ -106,9 +106,13 @@ stoppingAtDurham = stations.find(element => stations === "Durham");
   * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
   */
 
- if(stations=== "Durham" ){
+  array.forEach(element => {console.log(element);
+    
+});
+
+ if(element=== "Durham" ){
      console.log("Yay Durham!");
- } else(!(stations=== "Durham")){
+ } else(!element=== "Durham") {
      console.log("Aw...");
  }
 
